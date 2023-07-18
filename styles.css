@@ -6,7 +6,6 @@
     --header-height: 3rem;
 
     /*========== Colors ==========*/
-    /* Change favorite color */
     --hue-color: 236; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
@@ -1990,6 +1989,11 @@ main.row {
     height: calc(var(--header-height) + 1.5rem);
     column-gap: 1rem;
   }
+
+  .nav__link{
+    padding-top: 2rem;
+  }
+
   .nav__icon,
   .nav__close,
   .nav__toggle{
@@ -2105,6 +2109,10 @@ main.row {
     padding: 0;
   }
 
+  .nav__link{
+    padding-top: 2rem;
+  }
+
   .home__blob{
     width: 320px;
   }
@@ -2175,6 +2183,7 @@ main.row {
 
   .nav__link{
   display: flex;
+  padding-top: 2rem;
   flex-direction: column;
   align-items: center;
   font-size: larger;
@@ -2231,6 +2240,10 @@ main.row {
     height: fit-contents;
     padding-bottom: 2rem;
   } 
+  .project__title{
+     font-size: larger;
+  }
+
   .project__bg{
     background-color: var(--first-color);
     font-size: larger;
