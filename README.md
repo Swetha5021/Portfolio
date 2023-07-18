@@ -1,3 +1,3 @@
 # Portfolio
 
-https://swetha5021.github.io/Portfolio/
+www.swetha-sivasankararaj.com
