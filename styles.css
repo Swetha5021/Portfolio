@@ -733,6 +733,10 @@ img {
   width: 75%;
 }
 
+.skills__opencv{
+    width: 80%;
+}
+
 .skills__tensorflow{
   width: 70%;
 }
