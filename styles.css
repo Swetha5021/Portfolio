@@ -1,13 +1,16 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+
 /*==================== VARIABLES CSS ====================*/
 :root {
     --header-height: 3rem;
 
+    
     /*========== Colors ==========*/
     --hue-color: 236; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
+    
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
@@ -22,9 +25,11 @@
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
+    
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
 
+    
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
     --big-font-size: 2rem;
     --h1-font-size: 1.5rem;
@@ -37,10 +42,12 @@
     --white-color:white;
 
     /*========== Font weight ==========*/
+    
     --font-medium: 500;
     --font-semi-bold: 600;
 
     /*========== Margenes Bottom ==========*/
+    
     /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
     --mb-0-25: .25rem;
     --mb-0-5: .5rem;
@@ -51,7 +58,9 @@
     --mb-2-5: 2.5rem;
     --mb-3: 3rem;
 
+    
     /*========== z index ==========*/
+    
     --z-tooltip: 10;
     --z-fixed: 100;
     --z-modal: 1000;
