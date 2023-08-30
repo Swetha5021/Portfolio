@@ -1,4 +1,5 @@
 /*==================== MENU SHOW Y HIDDEN ====================*/
+
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle')
       navClose = document.getElementById('nav-close')
@@ -20,6 +21,8 @@ if(navClose){
 }
 
 /*==================== REMOVE MENU MOBILE ====================*/
+
+
 const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
@@ -30,6 +33,7 @@ function linkAction(){
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*==================== ACCORDION SKILLS ====================*/
+
 const skillsContent = document.getElementsByClassName('skills__content'),
       skillsHeader = document.querySelectorAll('.skills__header')
 
@@ -49,6 +53,7 @@ skillsHeader.forEach((el) =>{
 })
 
 /*==================== QUALIFICATION TABS ====================*/
+
 const tabs = document.querySelectorAll('[data-target]'),
       tabContents = document.querySelectorAll('[data-content]')
 
@@ -72,6 +77,7 @@ tabs.forEach(tab =>{
 
 
 /*==================== PORTFOLIO SWIPER  ====================*/
+
 let swiper = new Swiper(".portfolio__container", {
     cssMode: true,
     loop:true,
