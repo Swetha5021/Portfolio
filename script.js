@@ -22,7 +22,6 @@ if(navClose){
 
 /*==================== REMOVE MENU MOBILE ====================*/
 
-
 const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
@@ -158,6 +157,7 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+
 //Email JS
 function sendEmail() {
     var params = {
@@ -169,7 +169,8 @@ function sendEmail() {
   
   const serviceID = "service_q4ewhf4"
   const templateID = "template_6eeztjf"
-  
+
+      
   emailjs
   .send(serviceID, templateID, params)
   .then((res) => {
@@ -181,8 +182,8 @@ function sendEmail() {
     alert("Your Message Sent Successfully!!");
   })
   .catch((err) => console.log(error));
-  
   }
+
 
 // SCROLL REVEAL JS
 ScrollReveal({ 
