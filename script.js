@@ -75,6 +75,7 @@ tabs.forEach(tab =>{
 /*==================== SERVICES MODAL ====================*/
 
 
+
 /*==================== PORTFOLIO SWIPER  ====================*/
 
 let swiper = new Swiper(".portfolio__container", {
@@ -92,6 +93,7 @@ let swiper = new Swiper(".portfolio__container", {
   });
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+
 const sections = document.querySelectorAll('section[id]')
 
 function scrollActive(){
@@ -120,6 +122,7 @@ function scrollHeader(){
 window.addEventListener('scroll', scrollHeader)
 
 /*==================== SHOW SCROLL UP ====================*/ 
+
 function scrollUp(){
     const scrollUp = document.getElementById('scroll-up');
     // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
@@ -128,6 +131,7 @@ function scrollUp(){
 window.addEventListener('scroll', scrollUp)
 
 /*==================== DARK LIGHT THEME ====================*/ 
+
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'uil-sun'
