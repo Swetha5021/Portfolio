@@ -2249,10 +2249,12 @@ main.row {
     padding-top: 10rem;
     padding-bottom: 1rem;
   }
+    
   .project__container{
     height: fit-contents;
     padding-bottom: 2rem;
   } 
+    
   .project__title{
      font-size: larger;
   }
@@ -2268,4 +2270,5 @@ main.row {
     align-content: center;
     height: 270px;
   }
+    
 }
