@@ -433,6 +433,7 @@ img {
 }
 
 /*==================== BUTTONS ====================*/
+
 .button{
   display: inline-block;
   background-image: linear-gradient(to right, rgb(54, 184, 216) 0%, rgb(73, 82, 207) 51%);
